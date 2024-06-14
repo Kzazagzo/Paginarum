@@ -1,0 +1,87 @@
+[versions]
+accompanistToastVersion = "latest_version"
+activityCompose = "1.9.0"
+appauth = "0.11.1"
+biometric = "1.2.0-alpha05"
+coilCompose = "2.6.0"
+composeBom = "2024.05.00"
+composesensors = "1.1.2"
+converterScalars = "2.11.0"
+gson = "2.11.0"
+hiltAndroid = "2.49" # NIE AKTUALIZWOAĆ. 2.51 jest niekompatybilna
+hiltNavigationCompose = "1.2.0"
+jacksonDataformatXml = "2.17.0"
+jacksonModuleKotlin = "2.17.0"
+coreKtx = "1.13.1"
+jsoup = "1.17.2"
+kotlinxCoroutinesCore = "1.8.0"
+kotlinxSerializationJson = "1.6.3"
+lifecycleRuntimeKtx = "2.8.1"
+loggingInterceptor = "5.0.0-alpha.14"
+material = "1.12.0"
+moshiKotlin = "1.15.1"
+navigationCompose = "2.7.7"
+okhttp = "4.12.0"
+retrofit = "2.9.0"
+roomRuntimeVersion = "2.6.1"
+secretsGradlePlugin = "2.0.1"
+staxApi = "1.0-2"
+ui = "1.7.0-beta02"
+activity = "1.9.0"
+uiTooling = "1.7.0-beta02"
+uiToolingPreviewAndroid = "1.6.7"
+voyagerKoin = "1.1.0-alpha03"
+voyagerNavigatorAndroid = "1.1.0-alpha04"
+material3AndroidVersion = "1.2.1"
+lifecycleService = "2.8.1"
+uiTextGoogleFonts = "1.6.7"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntimeVersion" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntimeVersion" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntimeVersion" }
+androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+appauth = { module = "net.openid:appauth", version.ref = "appauth" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+composesensors = { module = "com.mutualmobile:composesensors", version.ref = "composesensors" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterScalars" }
+#converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+#converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "converterScalars" }
+dagger = { module = "com.google.dagger:dagger", version.ref = "hiltAndroid" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "hiltAndroid" }
+google-accompanist-toast = { module = "com.google.accompanist:accompanist-toast", version.ref = "accompanistToastVersion" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+jackson-dataformat-xml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml", version.ref = "jacksonDataformatXml" }
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jacksonModuleKotlin" }
+jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinxSerializationJson" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+#moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlin" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-ui-tooling-preview-android = { group = "androidx.compose.ui", name = "ui-tooling-preview-android", version.ref = "uiToolingPreviewAndroid" }
+secrets-gradle-plugin = { module = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin", version.ref = "secretsGradlePlugin" }
+stax-api = { module = "javax.xml.stream:stax-api", version.ref = "staxApi" }
+voyager-hilt = { module = "cafe.adriel.voyager:voyager-hilt", version.ref = "voyagerKoin" }
+voyager-tab-navigator-android = { module = "cafe.adriel.voyager:voyager-tab-navigator-android", version.ref = "voyagerNavigatorAndroid" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3AndroidVersion" }
+voyager-transitions = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyagerNavigatorAndroid" }
+androidx-lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycleService" }
+androidx-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+
+[plugins]
+
